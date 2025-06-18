@@ -1,0 +1,482 @@
+[
+  {
+    "question": "How do I initialize a new Git repository?",
+    "answer": "Use the command `git init` in your project directory."
+  },
+  {
+    "question": "How do I clone a Git repository?",
+    "answer": "Use `git clone <repository_url>`."
+  },
+  {
+    "question": "How do I create a new Git branch?",
+    "answer": "Use `git branch <branch_name>`."
+  },
+  {
+    "question": "How do I switch to a different branch?",
+    "answer": "Use `git switch <branch_name>` or `git checkout <branch_name>`."
+  },
+  {
+    "question": "How do I delete a local Git branch?",
+    "answer": "Use `git branch -d <branch_name>`."
+  },
+  {
+    "question": "How do I view commit history?",
+    "answer": "Use `git log`."
+  },
+  {
+    "question": "How do I add changes to staging in Git?",
+    "answer": "Use `git add <file>` or `git add .` to stage all changes."
+  },
+  {
+    "question": "How do I commit changes in Git?",
+    "answer": "Use `git commit -m \"your message\"`."
+  },
+  {
+    "question": "How do I push changes to remote?",
+    "answer": "Use `git push origin <branch_name>`."
+  },
+  {
+    "question": "How do I pull latest changes from remote?",
+    "answer": "Use `git pull`."
+  },
+  {
+    "question": "How do I stash changes in Git?",
+    "answer": "Use `git stash` to temporarily save uncommitted changes."
+  },
+  {
+    "question": "How do I apply stashed changes?",
+    "answer": "Use `git stash apply`."
+  },
+  {
+    "question": "How do I view the current status in Git?",
+    "answer": "Use `git status`."
+  },
+  {
+    "question": "How do I merge branches in Git?",
+    "answer": "Switch to the target branch and use `git merge <branch_name>`."
+  },
+  {
+    "question": "How do I resolve merge conflicts?",
+    "answer": "Manually edit conflicting files, then use `git add <file>` and `git commit`."
+  },
+  {
+    "question": "How do I view the difference between commits?",
+    "answer": "Use `git diff <commit1> <commit2>`."
+  },
+  {
+    "question": "How do I revert the last commit?",
+    "answer": "Use `git revert HEAD`."
+  },
+  {
+    "question": "How do I reset to a previous commit?",
+    "answer": "Use `git reset --hard <commit_hash>`."
+  },
+  {
+    "question": "How do I configure Git username?",
+    "answer": "Use `git config --global user.name \"Your Name\"`."
+  },
+  {
+    "question": "How do I configure Git email?",
+    "answer": "Use `git config --global user.email \"you@example.com\"`."
+  },
+  {
+    "question": "How do I see a list of all branches?",
+    "answer": "Use `git branch` for local, or `git branch -a` for all."
+  },
+  {
+    "question": "How do I rename a branch?",
+    "answer": "Use `git branch -m <new_name>`."
+  },
+  {
+    "question": "How do I delete a remote branch?",
+    "answer": "Use `git push origin --delete <branch_name>`."
+  },
+  {
+    "question": "How do I rebase a branch?",
+    "answer": "Use `git rebase <base_branch>`."
+  },
+  {
+    "question": "How do I undo `git add`?",
+    "answer": "Use `git reset <file>` to unstage."
+  },
+  {
+    "question": "How do I print a message in Bash?",
+    "answer": "Use `echo \"Your message\"`."
+  },
+  {
+    "question": "How do I assign a value to a variable in Bash?",
+    "answer": "Use `variable_name=value` (no spaces)."
+  },
+  {
+    "question": "How do I access a variable in Bash?",
+    "answer": "Use `$variable_name`."
+  },
+  {
+    "question": "How do I make a Bash script executable?",
+    "answer": "Use `chmod +x script.sh`."
+  },
+  {
+    "question": "How do I run a Bash script?",
+    "answer": "Use `./script.sh`."
+  },
+  {
+    "question": "How do I write a for loop in Bash?",
+    "answer": "Use `for i in {1..5}; do echo $i; done`."
+  },
+  {
+    "question": "How do I write an if condition in Bash?",
+    "answer": "Use `if [ condition ]; then ... fi`."
+  },
+  {
+    "question": "How do I check if a file exists in Bash?",
+    "answer": "Use `if [ -f filename ]; then ... fi`."
+  },
+  {
+    "question": "How do I read user input in Bash?",
+    "answer": "Use `read variable_name`."
+  },
+  {
+    "question": "How do I get the current working directory?",
+    "answer": "Use `pwd`."
+  },
+  {
+    "question": "How do I list files in a directory?",
+    "answer": "Use `ls`."
+  },
+  {
+    "question": "How do I create a new directory?",
+    "answer": "Use `mkdir directory_name`."
+  },
+  {
+    "question": "How do I delete a file in Bash?",
+    "answer": "Use `rm filename`."
+  },
+  {
+    "question": "How do I delete a directory and its contents?",
+    "answer": "Use `rm -r directory_name`."
+  },
+  {
+    "question": "How do I copy a file in Bash?",
+    "answer": "Use `cp source destination`."
+  },
+  {
+    "question": "How do I move or rename a file?",
+    "answer": "Use `mv old_name new_name`."
+  },
+  {
+    "question": "How do I run a command in the background?",
+    "answer": "Append `&` to the command, e.g., `sleep 10 &`."
+  },
+  {
+    "question": "How do I view running processes in Bash?",
+    "answer": "Use `ps` or `top`."
+  },
+  {
+    "question": "How do I exit a Bash script?",
+    "answer": "Use `exit`."
+  },
+  {
+    "question": "How do I chain commands in Bash?",
+    "answer": "Use `&&`, `||`, or `;` between commands."
+  },
+  {
+    "question": "How do I redirect output to a file?",
+    "answer": "Use `>` to overwrite or `>>` to append."
+  },
+  {
+    "question": "How do I redirect error output in Bash?",
+    "answer": "Use `2>` to redirect stderr."
+  },
+  {
+    "question": "How do I run a command as root?",
+    "answer": "Use `sudo <command>`."
+  },
+  {
+    "question": "How do I schedule tasks in Bash?",
+    "answer": "Use `crontab -e` to edit scheduled jobs."
+  },
+  {
+    "question": "How do I test arithmetic in Bash?",
+    "answer": "Use `(( expression ))`."
+  },
+  {
+    "question": "How do I create a tar archive?",
+    "answer": "Use `tar -cvf archive.tar file_or_dir`."
+  },
+  {
+    "question": "How do I extract a tar archive?",
+    "answer": "Use `tar -xvf archive.tar`."
+  },
+  {
+    "question": "How do I create a gzipped tarball?",
+    "answer": "Use `tar -czvf archive.tar.gz file_or_dir`."
+  },
+  {
+    "question": "How do I extract a gzipped tarball?",
+    "answer": "Use `tar -xzvf archive.tar.gz`."
+  },
+  {
+    "question": "How do I extract to a specific directory?",
+    "answer": "Use `tar -xvf archive.tar -C /path/to/dir`."
+  },
+  {
+    "question": "How do I list contents of a tar file?",
+    "answer": "Use `tar -tvf archive.tar`."
+  },
+  {
+    "question": "How do I compress a file with gzip?",
+    "answer": "Use `gzip filename`."
+  },
+  {
+    "question": "How do I decompress a .gz file?",
+    "answer": "Use `gunzip filename.gz`."
+  },
+  {
+    "question": "How do I compress multiple files into one archive?",
+    "answer": "Use `tar -czvf archive.tar.gz file1 file2`."
+  },
+  {
+    "question": "How do I exclude files from a tar archive?",
+    "answer": "Use `--exclude='*.log'` with `tar`."
+  },
+  {
+    "question": "How do I update files in an existing tar?",
+    "answer": "Use `tar -uvf archive.tar newfile.txt`."
+  },
+  {
+    "question": "How do I test a tar.gz file for integrity?",
+    "answer": "Use `gunzip -t archive.tar.gz`."
+  },
+  {
+    "question": "How do I view the compression ratio of gzip?",
+    "answer": "Use `gzip -l filename.gz`."
+  },
+  {
+    "question": "How do I create a bzip2-compressed tarball?",
+    "answer": "Use `tar -cjvf archive.tar.bz2 file_or_dir`."
+  },
+  {
+    "question": "How do I extract a .bz2 tarball?",
+    "answer": "Use `tar -xjvf archive.tar.bz2`."
+  },
+  {
+    "question": "How do I search for a string in a file using grep?",
+    "answer": "Use `grep 'string' filename`."
+  },
+  {
+    "question": "How do I search recursively with grep?",
+    "answer": "Use `grep -r 'pattern' /path/to/dir`."
+  },
+  {
+    "question": "How do I ignore case when using grep?",
+    "answer": "Use `grep -i 'pattern' filename`."
+  },
+  {
+    "question": "How do I show line numbers with grep results?",
+    "answer": "Use `grep -n 'pattern' filename`."
+  },
+  {
+    "question": "How do I invert the match in grep?",
+    "answer": "Use `grep -v 'pattern' filename`."
+  },
+  {
+    "question": "How do I use grep with pipes?",
+    "answer": "Use it like `command | grep 'pattern'`."
+  },
+  {
+    "question": "How do I search for whole words only in grep?",
+    "answer": "Use `grep -w 'word' filename`."
+  },
+  {
+    "question": "How do I search multiple files with grep?",
+    "answer": "Use `grep 'pattern' file1 file2`."
+  },
+  {
+    "question": "How do I count the number of matches with grep?",
+    "answer": "Use `grep -c 'pattern' filename`."
+  },
+  {
+    "question": "How do I display filenames only with matches?",
+    "answer": "Use `grep -l 'pattern' *`."
+  },
+  {
+    "question": "How do I exclude a directory when using grep recursively?",
+    "answer": "Use `grep -r --exclude-dir=dir 'pattern' .`."
+  },
+  {
+    "question": "How do I match a regular expression using grep?",
+    "answer": "Just use `grep 'regex' filename`."
+  },
+  {
+    "question": "How do I highlight matches with grep?",
+    "answer": "Use `--color=auto` with your grep command."
+  },
+  {
+    "question": "How do I grep for lines starting with a string?",
+    "answer": "Use `grep '^string' filename`."
+  },
+  {
+    "question": "How do I search for tabs using grep?",
+    "answer": "Use `grep $'\\t' filename`."
+  },
+  {
+    "question": "How do I create a Python virtual environment?",
+    "answer": "Use `python3 -m venv env`."
+  },
+  {
+    "question": "How do I activate a Python virtual environment on Linux/macOS?",
+    "answer": "Use `source env/bin/activate`."
+  },
+  {
+    "question": "How do I activate a Python virtual environment on Windows?",
+    "answer": "Use `env\\Scripts\\activate`."
+  },
+  {
+    "question": "How do I deactivate a virtual environment?",
+    "answer": "Simply type `deactivate`."
+  },
+  {
+    "question": "How do I install a package using pip?",
+    "answer": "Use `pip install package_name`."
+  },
+  {
+    "question": "How do I uninstall a pip package?",
+    "answer": "Use `pip uninstall package_name`."
+  },
+  {
+    "question": "How do I list installed pip packages?",
+    "answer": "Use `pip list`."
+  },
+  {
+    "question": "How do I upgrade pip?",
+    "answer": "Use `python -m pip install --upgrade pip`."
+  },
+  {
+    "question": "How do I freeze pip packages to a file?",
+    "answer": "Use `pip freeze > requirements.txt`."
+  },
+  {
+    "question": "How do I install packages from a requirements.txt file?",
+    "answer": "Use `pip install -r requirements.txt`."
+  },
+  {
+    "question": "How do I check a package's version with pip?",
+    "answer": "Use `pip show package_name`."
+  },
+  {
+    "question": "How do I create an editable install with pip?",
+    "answer": "Use `pip install -e .` in the package root."
+  },
+  {
+    "question": "How do I install a specific version of a package?",
+    "answer": "Use `pip install package==version`."
+  },
+  {
+    "question": "How do I check if a package is outdated?",
+    "answer": "Use `pip list --outdated`."
+  },
+  {
+    "question": "How do I install packages in user space?",
+    "answer": "Use `pip install --user package_name`."
+  },
+  {
+    "question": "How do I install a package from GitHub using pip?",
+    "answer": "Use `pip install git+https://github.com/user/repo.git`."
+  },
+  {
+    "question": "How do I find where pip installs packages?",
+    "answer": "Use `pip show package_name` and look for `Location`."
+  },
+  {
+    "question": "How do I install pip for Python 3?",
+    "answer": "Use `python3 -m ensurepip --upgrade`."
+  },
+  {
+    "question": "How do I see the dependencies of a package?",
+    "answer": "Use `pip show package_name` and check `Requires`."
+  },
+  {
+    "question": "How do I install multiple packages at once?",
+    "answer": "Use `pip install package1 package2 ...`."
+  },
+  {
+    "question": "How do I download a file using curl?",
+    "answer": "Use `curl -O https://example.com/file.txt`."
+  },
+  {
+    "question": "How do I make a POST request with curl?",
+    "answer": "Use `curl -X POST -d 'key=value' https://example.com`."
+  },
+  {
+    "question": "How do I follow redirects with curl?",
+    "answer": "Use `curl -L <URL>`."
+  },
+  {
+    "question": "How do I search for a file by name?",
+    "answer": "Use `find . -name 'filename'`."
+  },
+  {
+    "question": "How do I search for files by extension?",
+    "answer": "Use `find . -name '*.txt'`."
+  },
+  {
+    "question": "How do I delete all `.log` files in a directory?",
+    "answer": "Use `find . -name '*.log' -delete`."
+  },
+  {
+    "question": "How do I replace text in a file using sed?",
+    "answer": "Use `sed -i 's/old/new/g' filename`."
+  },
+  {
+    "question": "How do I view system resource usage?",
+    "answer": "Use `top` or `htop`."
+  },
+  {
+    "question": "How do I check disk usage?",
+    "answer": "Use `df -h`."
+  },
+  {
+    "question": "How do I check directory sizes?",
+    "answer": "Use `du -sh *`."
+  },
+  {
+    "question": "How do I download a webpage with wget?",
+    "answer": "Use `wget https://example.com`."
+  },
+  {
+    "question": "How do I extract text from a PDF using CLI?",
+    "answer": "Use `pdftotext file.pdf`."
+  },
+  {
+    "question": "How do I monitor network usage?",
+    "answer": "Use `iftop` or `nload`."
+  },
+  {
+    "question": "How do I kill a process by name?",
+    "answer": "Use `pkill process_name`."
+  },
+  {
+    "question": "How do I kill a process by PID?",
+    "answer": "Use `kill -9 <pid>`."
+  },
+  {
+    "question": "How do I extract a zip file?",
+    "answer": "Use `unzip file.zip`."
+  },
+  {
+    "question": "How do I archive and compress a directory?",
+    "answer": "Use `tar -czvf archive.tar.gz dir/`."
+  },
+  {
+    "question": "How do I generate SSH keys?",
+    "answer": "Use `ssh-keygen -t rsa -b 4096`."
+  },
+  {
+    "question": "How do I show your current shell?",
+    "answer": "Use `echo $SHELL`."
+  },
+  {
+    "question": "How do I get the current date and time in CLI?",
+    "answer": "Use `date`."
+  }
+]
